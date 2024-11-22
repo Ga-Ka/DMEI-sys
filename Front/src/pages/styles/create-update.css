@@ -1,0 +1,42 @@
+.create-update{
+    justify-content: center;
+    text-align: center;
+    margin: auto;
+    padding-top: 80px;
+    padding-bottom: 120px;
+    height: 100%;
+    width: 100%;
+    overflow-y: auto;
+}
+
+.form-create-update{
+    max-width: 900px;
+    margin: auto;
+}
+.form-create-update .columns{
+    display: flex;
+    justify-content: center;
+}
+
+.mb-3{
+    margin: 0px 20px;
+}
+
+.form-create-update label{ 
+    margin-top: 20px;
+}
+.form-create-update input{ 
+    min-width: 300px;
+    max-width: 400px;
+    margin: auto;
+}
+.form-create-update select{
+    margin: 0!important;
+}
+.form-create-update button{
+    margin: 30px 20px;
+}
+.form-create-update .card-body button{
+    margin-top: 10px;
+    margin-bottom: 0px;
+}

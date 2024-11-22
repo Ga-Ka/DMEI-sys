@@ -1,0 +1,156 @@
+@font-face {
+    font-family: 'FontAll';
+    src: url("./font/Gontserrat-Medium.ttf");
+}
+@font-face {
+    font-family: 'FontInput';
+    src: url("./font/Gontserrat-Regular.ttf");
+}
+
+/**** Default ****/
+html, body, div#root{
+    filter: contrast(95%) saturate(115%);
+    height: 100%;
+}
+body{
+    font-family: 'FontAll';
+    font-size: calc(12px + 0.390625vw);
+    margin: 0;
+}
+a, span{
+    text-decoration: none;
+}
+input, textarea, .css-1jqq78o-placeholder, .css-1dimb5e-singleValue, .alert{
+    font-family: 'FontInput';
+    font-size: calc(10px + 0.390625vw);
+}
+.alert{
+    background-color: white;
+}
+button.btn{
+    border-radius: 25px;
+    transition: 0.5s;
+}
+.input-group .btn{
+    z-index: 0 !important;
+}
+.react-confirm-alert-overlay{
+    background: rgb(0 0 0 / 90%);
+}
+.react-confirm-alert-body{
+    background: #222;
+    color: white;
+}
+
+
+/***** Dark *****/
+div#root.dark{
+    background-color: #f8f8f8;
+    filter: invert(1);
+}
+div#root.dark a, div#root.dark span{
+    color: white; /* white or black */
+}
+div#root.dark button, div#root.dark tspan, div#root.dark span, div#root.dark path, div#root.dark #DocumentPDF{
+    filter: invert(1); /* 1 or 0 */
+}
+div#root.dark button.btn path, div#root.dark button.btn path:hover{
+    filter: grayscale(1);
+    color: black;
+}
+div#root.dark button.btn, div#root.dark button.btn:hover{
+    color: black;
+}
+div#root.dark .css-jn69v9, div#root.dark .css-honxw6, div#root.dark .sc-lllmON.gMliOo path{
+    filter: none;
+}
+div#root.dark #details-card{
+    background: black;
+    color: white;
+}
+
+/***** Light *****/
+div#root.light{
+    background-color: #e5e5e5;
+    filter: invert(0);
+}
+div#root.light a, div#root.light span{
+    color: black; /* white or black */
+}
+div#root.light button, div#root.light tspan, div#root.light span, div#root.light path, div#root.light #DocumentPDF{
+    filter: invert(0); /* 1 or 0 */
+}
+div#root.light button.btn, div#root.light button.btn:hover{
+    color: white;
+}
+div#root.light button.btn.btn-warning, div#root.light button.btn.btn-warning:hover{
+    color: black;
+}
+div#root.light button.btn.btn-success svg{
+    filter: invert(1);
+}
+div#root.light button.btn path, div#root.light button.btn path:hover{
+    filter: grayscale(1);
+    color: white;
+}
+div#root.light button.btn.btn-light, div#root.light button.btn.btn-light:hover{
+    color: black;
+}
+div#root.light button.btn.btn-light path, div#root.light button.btn.btn-light path:hover{
+    filter: grayscale(1);
+    color: black;
+}
+div#root.light #details-card{
+    background: white;
+}
+
+@media only screen and (max-width: 600px) {
+    html {
+        zoom: .3;
+    }
+}
+
+@media only screen and (min-width: 800px) {
+    html {
+        zoom: .5;
+    }
+}
+
+@media only screen and (min-width: 900px) {
+    html {
+        zoom: .6;        
+    }
+}
+
+@media only screen and (min-width: 1000px) {
+    html {
+        zoom: .9;
+    }
+}
+
+@media only screen and (min-width: 1500px) {
+    html {
+        zoom: 1;
+    }
+}
+
+/* ===== Scrollbar CSS ===== */
+/* Firefox */
+* {
+scrollbar-width: auto;
+scrollbar-color: #b3b3b3 #646464;
+}
+
+/* Chrome, Edge, and Safari */
+*::-webkit-scrollbar {
+width: calc(10px + 0.390625vw);
+}
+
+*::-webkit-scrollbar-track {
+background: #646464;
+}
+
+*::-webkit-scrollbar-thumb {
+background-color: #b3b3b3;
+border: 3px none #ffffff;
+}

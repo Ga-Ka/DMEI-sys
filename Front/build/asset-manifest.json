@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/dmei-sys/static/css/main.3389b14a.css",
+    "main.js": "/dmei-sys/static/js/main.0c79d71e.js",
+    "static/js/498.62645131.chunk.js": "/dmei-sys/static/js/498.62645131.chunk.js",
+    "static/js/703.8474237f.chunk.js": "/dmei-sys/static/js/703.8474237f.chunk.js",
+    "static/js/513.737288f1.chunk.js": "/dmei-sys/static/js/513.737288f1.chunk.js",
+    "static/js/787.0a0a689b.chunk.js": "/dmei-sys/static/js/787.0a0a689b.chunk.js",
+    "static/media/Gontserrat-Medium.ttf": "/dmei-sys/static/media/Gontserrat-Medium.ba1d9af70259383392fd.ttf",
+    "static/media/Gontserrat-Regular.ttf": "/dmei-sys/static/media/Gontserrat-Regular.cc49d641c0b5d3d7b157.ttf",
+    "static/media/SEMEC.png": "/dmei-sys/static/media/SEMEC.bbce0b77561603e4da46.png",
+    "index.html": "/dmei-sys/index.html",
+    "main.3389b14a.css.map": "/dmei-sys/static/css/main.3389b14a.css.map",
+    "main.0c79d71e.js.map": "/dmei-sys/static/js/main.0c79d71e.js.map",
+    "498.62645131.chunk.js.map": "/dmei-sys/static/js/498.62645131.chunk.js.map",
+    "703.8474237f.chunk.js.map": "/dmei-sys/static/js/703.8474237f.chunk.js.map",
+    "513.737288f1.chunk.js.map": "/dmei-sys/static/js/513.737288f1.chunk.js.map",
+    "787.0a0a689b.chunk.js.map": "/dmei-sys/static/js/787.0a0a689b.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3389b14a.css",
+    "static/js/main.0c79d71e.js"
+  ]
+}

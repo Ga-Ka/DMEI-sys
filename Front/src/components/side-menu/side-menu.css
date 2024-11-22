@@ -1,0 +1,42 @@
+.side-menu{
+    display: flex;
+    height: 100%;
+    font-size: calc(12px + 0.390625vw);
+}
+.side-menu .title{
+    padding-top: calc(25px + 0.390625vw);
+    padding-bottom: calc(6px + 0.390625vw);
+    padding-left: calc(25px + 0.390625vw);
+    padding-right: calc(25px + 0.390625vw);
+    margin: auto;
+}
+.side-menu .ps-submenu-root hr{
+    margin: 0;
+    color: #bbb;
+}
+.side-menu .ps-menu-button.css-1tood33{
+    background-color: #fafafa;
+}
+
+
+/**** Dark ****/
+div#root.dark .side-bar{
+    background-color: #ccc;
+}
+div#root.dark .side-menu svg{
+    filter: invert(1);
+}
+div#root.dark .ps-disabled{
+    color: gray;
+}
+
+/**** Light ****/
+div#root.light .side-bar{
+    background-color: #555;
+}
+div#root.light .side-menu svg{
+    filter: invert(0);
+}
+div#root.light .ps-disabled{
+    color: gray;
+}

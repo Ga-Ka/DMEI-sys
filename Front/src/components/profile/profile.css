@@ -1,0 +1,27 @@
+.profile{
+    display: block;
+    position: absolute !important;
+    top: 10px;
+    right: 40px;
+}
+.profile button.dropdown-toggle{
+    border: 1px solid black;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.25);
+}
+.profile button.dropdown-item{
+    filter: none !important;
+}
+
+div#root.dark .profile button.dropdown-item svg{
+    filter: invert(1) !important;
+}
+div#root.light .profile button.dropdown-item svg{
+    filter: invert(0) !important;
+}
+
+.profile #theme-color{
+    margin: 0;
+}
+.profile hr{
+    margin: 10px;
+}

@@ -1,0 +1,42 @@
+div.login{
+    text-align: center;
+    margin: auto;
+}
+
+div.login form{
+    max-width: 300px;
+    margin: auto;
+    margin-top: 20px;
+    padding: 15px;
+    border: 1px solid gray;
+    border-radius: 10px;
+    transition: 0.5s;
+}
+div.login form:hover{
+    transform: scale(102%);
+    border: 1px solid black;
+}
+
+div.login form input{
+    margin-bottom: 10px;
+}
+
+/**** Dark ****/
+div#root.dark div.login #anonymous{
+    color: gray;
+    transition: 0.5s;
+}
+div#root.dark div.login #anonymous:hover{
+    color: white;
+    transform: scale(105%);
+}
+
+/**** Light ****/
+div#root.light div.login #anonymous{
+    color: gray;
+    transition: 0.5s;
+}
+div#root.light div.login #anonymous:hover{
+    color: black;
+    transform: scale(105%);
+}
